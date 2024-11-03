@@ -29,8 +29,8 @@ spec:
     app: conversaotemperatura
   type: NodePort
   ports:
-  - name: http
-    port: 80
-    targetPort: 8080
-    protocol: TCP
-    NodePort: 30000
+    - name: http
+      port: 80
+      targetPort: 8080
+      protocol: TCP
+      nodePort: 30000
